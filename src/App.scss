@@ -1,0 +1,29 @@
+body {
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 200px;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 50px 15px 0px 15px;
+  }
+
+  body > *,
+  .container > * {
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  script{
+    display: none;
+  }
+
+  hr{
+    opacity: 0.4;
+  }

@@ -6,16 +6,20 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "ds-tokens": "git+https://github.com/Meiuca/poc-dotz-design-token",
+    "ds-wc": "git+https://github.com/Meiuca/poc-dotz-web-components.git",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "reactify-wc": "^4.0.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +38,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "react-app-rewired": "^2.1.8",
+    "string-replace-webpack-plugin": "^0.1.3",
+    "webpack-plugin-replace": "^1.2.0",
+    "webpack-shell-plugin": "^0.5.0"
   }
 }
